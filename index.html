@@ -72,10 +72,19 @@
               &#60;/Skills&#62;
             </a>
           </li>
-
+          <li class="experience" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#experience" aria-label="experience menu button">
+              &#60;/Experience&#62;
+            </a>
+          </li>
           <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
             <a href="#projects" aria-label="projects menu button">
               &#60;/Projects&#62;
+            </a>
+          </li>
+          <li class="blogs" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#blogs" aria-label="blogs menu button">
+              &#60;/Blogs&#62;
             </a>
           </li>
         </ul>
@@ -115,8 +124,18 @@
             &#60;/Skills&#62;
           </a>
         </li>
+        <li id="experience-mobile-tab" class="mobile-navbar-tabs-li experience" onclick="hidemenubyli()">
+          <a href="#experience" tabindex="0" aria-label="experience menu button">
+            &#60;/Experience&#62;
+          </a>
+        </li>
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &#60;/Projects&#62;
+          </a>
+        </li>
+        <li id="blogs-mobile-tab" class="blogs-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#blogs" tabindex="0" aria-label="blogs menu button">
             &#60;/Projects&#62;
           </a>
         </li>
@@ -265,7 +284,7 @@
           </div>
 
           <div class="dp" data-aos="fade-up">
-            <img src="src/webp/Aadrsh.webp" alt="Aadarsh Chaudhary" tabindex="0" aria-label="image of aadarsh" />
+            <img src="src/webp/Adrsh.jpg" alt="Aadarsh Chaudhary" tabindex="0" aria-label="image of aadarsh" />
           </div>
         </div>
       </div>
@@ -358,7 +377,48 @@
       </div>
     </section>
     <!-- skills section ends -->
-    <section class="projects-section-container" id="projects">
+          <section class="experience-section-container" id="experience">
+      <div class="experience-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="experience heading">
+            &#60;/Experience&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Consultant- AI & Analytics @ SMARRTIF AI</h3>
+              <span class="timeline-date">Jul 2025 - Present</span>
+              <p>Designed end-to-end AI/ML training modules and modular prototypes used by 30+ learners. <br>Delivered workshops on Python, Power BI, and applied ML with strong adoption outcomes. <br>Integrated learner analytics to improve course retention and engagement.</p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Educational Content Creator Intern @ SMARRTIF AI</h3>
+              <span class="timeline-date">Dec 2024 - Jul 2025</span>
+              <p>Built 20+ AI/ML tutorials & assessments bridging academia and industry. <br>Created a LinkedIn Analyzer tool with 100+ active users. <br>Curated structured learning paths, boosting learner completion rates.</p>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>AI Engineer Intern @ SKXYWTF</h3>
+              <span class="timeline-date">Jun 2024 - Sep 2024</span>
+              <p>Developed predictive trading models (ROI +20%, risk –8%) using Scikit-learn & TensorFlow. <br>Engineered real-time trading pipelines with equities/crypto APIs. <br>Integrated ML models into backend finance bot for trade execution & visualization.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experience section ends -->
+     <section class="projects-section-container" id="projects">
       <div class="projects-section-div">
         <div class="section-heading" data-aos="fade-up">
           <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
@@ -367,6 +427,64 @@
           <p class="sectionHeadingP"></p>
         </div>
         <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/png/Careerfav.png" alt="website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">CareerAI Toolkit website</article>
+                <p class="ProjectDescription">
+                  AI-powered toolkit for Resume Analysis, LinkedIn Profile Optimization, and GitHub Profile/Repository Insights — built with FastAPI and powered by Google Gemini.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/AdrshChaudhary/careerai_toolkit" target="_blank" class="github-redirect"
+                    aria-label="Visit on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://careerai-toolkit.vercel.app/" target="_blank" class="cta"
+                    aria-label="Visit CareerAI Toolkit Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/Career.PNG" alt="website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/png/Chartfav.png" alt="Chartly website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Chart-ly</article>
+                <p class="ProjectDescription">
+                  AI-powered data visualization platform that transforms raw data files into interactive, Power BI-style dashboards with intelligent chart recommendations and comprehensive insights — built with FastAPI, Next.js, and powered by Google Gemini AI.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/AdrshChaudhary/chart-ly" target="_blank" class="github-redirect"
+                    aria-label="Visit Chart-ly on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://chart-ly.vercel.app/" target="_blank" class="cta"
+                    aria-label="Visit Chart-ly Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/Chartly.PNG" alt="stopscams website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
           <div data-aos="fade-up" class="project-box-wrapper">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
@@ -395,30 +513,6 @@
               </div>
             </div>
           </div>
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box5" id="project-box5">
-              <div class="info-div">
-                <img src="src/png/ipl.png" alt="ipl dashboard favicon"
-                  class="faviconforProject" />
-                <article class="ProjectHeading">IPL DASH</article>
-                <p class="ProjectDescription">
-                  Tracks live IPL matches dynamically, providing an interactive and data-driven way to analyze the game.
-                   This Power BI dashboard fetches real-time match updates, breaking down key insights for cricket fans and analysts.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/AdrshChaudhary/IPL_Dash" target="_blank" class="github-redirect"
-                    aria-label="Visit My Project on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/png/dashboard.png" alt="ipl dashboard preview image" />
-              </div>
-            </div>
-          </div>
-
           <!-- ---------------------- -->
           <div class="project-box-wrapper" data-aos="fade-up">
             <div class="project-box project-box2" id="project-box2">
@@ -450,8 +544,47 @@
               </div>
             </div>
           </div>
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <img src="src/png/ipl.png" alt="ipl dashboard favicon"
+                  class="faviconforProject" />
+                <article class="ProjectHeading">Power BI Dashboards</article>
+                <p class="ProjectDescription">
+                  End-to-end BI dashboards for IPL, Blinkit, Sales KPIs, and Customer Churn using DAX and SQL-driven insights.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/AdrshChaudhary/powerbi" target="_blank" class="github-redirect"
+                    aria-label="Visit My Project on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/bi.png" alt="ipl dashboard preview image" />
+              </div>
+            </div>
+          </div>
           <!-- ---------------------- -->
           <!-- ---------------------- -->
+        </div>
+      </div>
+    </section>
+    <section class="blogs-section-container" id="blogs">
+      <div class="blogs-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My blogs starts from here">
+            &#60;/Blogs&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="blog-boxes-div">
+          <!-- Blog posts will be dynamically loaded here -->
+          <div class="loading-blogs" data-aos="fade-up">
+            <p style="color: var(--color-gray); font-size: 1.8rem; text-align: center; padding: 40px;">
+              Loading latest articles from Medium...
+            </p>
+          </div>
         </div>
       </div>
     </section>
